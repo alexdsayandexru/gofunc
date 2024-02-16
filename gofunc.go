@@ -3,7 +3,7 @@ package gofunc
 import "fmt"
 
 func Version() {
-	fmt.Println("2.0.0")
+	fmt.Println("3.0.0")
 }
 
 func Sum(ab ...int) int {
