@@ -6,9 +6,9 @@ func Version() {
 	fmt.Println("2.0.0")
 }
 
-func Sum(abc ...int) int {
+func Sum(ab ...int) int {
 	b := 0
-	for _, a := range abc {
+	for _, a := range ab {
 		b = b + a
 	}
 	return b
