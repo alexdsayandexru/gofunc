@@ -3,9 +3,13 @@ package gofunc
 import "fmt"
 
 func Version() {
-	fmt.Println("1.0.0")
+	fmt.Println("2.0.0")
 }
 
-func Sum(a, b int) int {
-	return a + b
+func Sum(abc ...int) int {
+	b := 0
+	for _, a := range abc {
+		b = b + a
+	}
+	return b
 }
